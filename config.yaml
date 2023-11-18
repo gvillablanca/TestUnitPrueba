@@ -1,0 +1,23 @@
+# Configuración para la ejecución de pruebas Selenium con Chrome
+webdriverOptions:
+  capabilities:
+    alwaysMatch:
+      browserName: chrome
+  chromeOptions:
+    args:
+      - start-maximized
+      - disable-infobars
+      - disable-extensions
+      - no-sandbox
+      - disable-gpu
+      - disable-dev-shm-usage
+    prefs:
+      download:
+        prompt_for_download: false
+      browser:
+        set_download_behavior:
+          behavior: 'allow'
+          download_path: '/ruta/del/directorio/de/descargas'
+
+# Archivos de prueba Selenium
+suite: Simple_Stock.side

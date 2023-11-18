@@ -63,3 +63,8 @@ cd  Logs
 ```
 
 Ahi queda el log de lo que se ejecuto y su estado.
+
+6. Ejecutando el Yaml para lanzar las pruebas con un archivo de configuración
+```
+selenium-side-runner -c config.yaml Simple_Stock.side
+```
