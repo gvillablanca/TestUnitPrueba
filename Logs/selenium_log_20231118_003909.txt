@@ -1,0 +1,46 @@
+  console.info
+    
+          Project Simple_Stock doesn't have any suites matching filter .*,
+          attempting to iterate all tests in project
+
+      at src/main.test.ts:158:15
+          at Array.forEach (<anonymous>)
+
+[32minfo[39m: Running test CP001
+[32minfo[39m: Building driver for chrome
+[32minfo[39m: Driver has been built for chrome
+[32minfo[39m: Finished test CP001 Success
+[32minfo[39m: Running test CP002
+[32minfo[39m: Building driver for chrome
+[32minfo[39m: Driver has been built for chrome
+[32minfo[39m: Finished test CP002 Success
+[32minfo[39m: Running test CP003
+[32minfo[39m: Building driver for chrome
+[32minfo[39m: Driver has been built for chrome
+[32minfo[39m: Finished test CP003 Success
+[32minfo[39m: Running test CP004
+[32minfo[39m: Building driver for chrome
+[32minfo[39m: Driver has been built for chrome
+[32minfo[39m: Finished test CP004 Success
+[32minfo[39m: Running test CP005
+[32minfo[39m: Building driver for chrome
+[32minfo[39m: Driver has been built for chrome
+[32minfo[39m: Finished test CP005 Success
+[32minfo[39m: Running test CP006
+[32minfo[39m: Building driver for chrome
+[32minfo[39m: Driver has been built for chrome
+[32minfo[39m: Finished test CP006 Success
+PASS C:/Users/Reizewr/AppData/Roaming/npm/node_modules/selenium-side-runner/dist/main.test.js (20.252 s)
+  Running project Simple_Stock
+    √ Running test CP001 (3231 ms)
+    √ Running test CP002 (2260 ms)
+    √ Running test CP003 (3174 ms)
+    √ Running test CP004 (2695 ms)
+    √ Running test CP005 (2841 ms)
+    √ Running test CP006 (5209 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       6 passed, 6 total
+Snapshots:   0 total
+Time:        20.334 s
+Ran all test suites within paths "C:\Users\Reizewr\AppData\Roaming\npm\node_modules\selenium-side-runner\dist\main.test.js".
