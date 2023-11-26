@@ -1,0 +1,90 @@
+  console.info
+    
+          Project Simple_Stock doesn't have any suites matching filter .*,
+          attempting to iterate all tests in project
+
+      at src/main.test.ts:158:15
+          at Array.forEach (<anonymous>)
+
+[32minfo[39m: Running test CP001
+[32minfo[39m: Building driver for chrome
+[32minfo[39m: Driver has been built for chrome
+[32minfo[39m: Finished test CP001 Success
+[32minfo[39m: Running test CP002
+[32minfo[39m: Building driver for chrome
+[32minfo[39m: Driver has been built for chrome
+  console.warn
+    Unexpected error occured during command: click-css=.img-responsive- retrying...
+
+      at CommandNode.handleTransientError (node_modules/@seleniumhq/side-runtime/src/playback-tree/command-node.ts:185:15)
+      at CommandNode.retryCommand (node_modules/@seleniumhq/side-runtime/src/playback-tree/command-node.ts:161:12)
+      at CommandNode.execute (node_modules/@seleniumhq/side-runtime/src/playback-tree/command-node.ts:100:20)
+      at Playback._executeCommand (node_modules/@seleniumhq/side-runtime/src/playback.ts:559:22)
+      at Playback._executionLoop (node_modules/@seleniumhq/side-runtime/src/playback.ts:436:18)
+      at Playback._executionLoop (node_modules/@seleniumhq/side-runtime/src/playback.ts:493:14)
+      at Playback._executionLoop (node_modules/@seleniumhq/side-runtime/src/playback.ts:493:14)
+      at Playback._executionLoop (node_modules/@seleniumhq/side-runtime/src/playback.ts:493:14)
+      at Playback._executionLoop (node_modules/@seleniumhq/side-runtime/src/playback.ts:493:14)
+      at Playback._executionLoop (node_modules/@seleniumhq/side-runtime/src/playback.ts:493:14)
+      at Playback._executionLoop (node_modules/@seleniumhq/side-runtime/src/playback.ts:493:14)
+      at Playback._executionLoop (node_modules/@seleniumhq/side-runtime/src/playback.ts:493:14)
+      at Playback._executionLoop (node_modules/@seleniumhq/side-runtime/src/playback.ts:493:14)
+      at Playback._executionLoop (node_modules/@seleniumhq/side-runtime/src/playback.ts:493:14)
+      at node_modules/@seleniumhq/side-runtime/src/playback.ts:345:9
+
+  console.error
+    stale element reference: stale element not found
+      (Session info: chrome=119.0.6045.160)
+
+      at CommandNode.handleTransientError (node_modules/@seleniumhq/side-runtime/src/playback-tree/command-node.ts:191:17)
+      at CommandNode.retryCommand (node_modules/@seleniumhq/side-runtime/src/playback-tree/command-node.ts:161:12)
+      at CommandNode.execute (node_modules/@seleniumhq/side-runtime/src/playback-tree/command-node.ts:100:20)
+      at Playback._executeCommand (node_modules/@seleniumhq/side-runtime/src/playback.ts:559:22)
+      at Playback._executionLoop (node_modules/@seleniumhq/side-runtime/src/playback.ts:436:18)
+      at Playback._executionLoop (node_modules/@seleniumhq/side-runtime/src/playback.ts:493:14)
+      at Playback._executionLoop (node_modules/@seleniumhq/side-runtime/src/playback.ts:493:14)
+      at Playback._executionLoop (node_modules/@seleniumhq/side-runtime/src/playback.ts:493:14)
+      at Playback._executionLoop (node_modules/@seleniumhq/side-runtime/src/playback.ts:493:14)
+      at Playback._executionLoop (node_modules/@seleniumhq/side-runtime/src/playback.ts:493:14)
+      at Playback._executionLoop (node_modules/@seleniumhq/side-runtime/src/playback.ts:493:14)
+      at Playback._executionLoop (node_modules/@seleniumhq/side-runtime/src/playback.ts:493:14)
+      at Playback._executionLoop (node_modules/@seleniumhq/side-runtime/src/playback.ts:493:14)
+      at Playback._executionLoop (node_modules/@seleniumhq/side-runtime/src/playback.ts:493:14)
+      at node_modules/@seleniumhq/side-runtime/src/playback.ts:345:9
+
+[32minfo[39m: Finished test CP002 Success
+[32minfo[39m: Running test CP003
+[32minfo[39m: Building driver for chrome
+[32minfo[39m: Driver has been built for chrome
+[32minfo[39m: Finished test CP003 Success
+[32minfo[39m: Running test CP004
+[32minfo[39m: Building driver for chrome
+[32minfo[39m: Driver has been built for chrome
+[32minfo[39m: Finished test CP004 Success
+[32minfo[39m: Running test CP005
+[32minfo[39m: Building driver for chrome
+[32minfo[39m: Driver has been built for chrome
+[32minfo[39m: Finished test CP005 Success
+[32minfo[39m: Running test CP006
+[32minfo[39m: Building driver for chrome
+[32minfo[39m: Driver has been built for chrome
+[32minfo[39m: Finished test CP006 Success
+[32minfo[39m: Running test CP008
+[32minfo[39m: Building driver for chrome
+[32minfo[39m: Driver has been built for chrome
+[32minfo[39m: Finished test CP008 Success
+PASS C:/Users/Reizewr/AppData/Roaming/npm/node_modules/selenium-side-runner/dist/main.test.js (23.227 s)
+  Running project Simple_Stock
+    √ Running test CP001 (3168 ms)
+    √ Running test CP002 (2038 ms)
+    √ Running test CP003 (3127 ms)
+    √ Running test CP004 (2557 ms)
+    √ Running test CP005 (2968 ms)
+    √ Running test CP006 (5283 ms)
+    √ Running test CP008 (3216 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       7 passed, 7 total
+Snapshots:   0 total
+Time:        23.301 s
+Ran all test suites within paths "C:\Users\Reizewr\AppData\Roaming\npm\node_modules\selenium-side-runner\dist\main.test.js".
